@@ -1,0 +1,34 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#projects > h2 {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+
+.projects-grid a {
+    background: var(--main-gray);
+    border: 1px solid #222;
+    /* create normal box shadow */  
+    box-shadow: 2px 2px 5px #333;
+}
+
+.projects-grid h2 {
+    padding: 0.3em;
+    font-size: 1em;
+}
+
+.projects-grid p {
+    font-size: 0.5em;
+    padding: 0.5em;
+}

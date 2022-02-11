@@ -1,0 +1,14 @@
+
+
+nav ul {
+    height: 100%;
+    line-height: 30px;;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 10px;
+}
+

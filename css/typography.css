@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bilbo', serif;
+}
+
+p, span, a, li, td, th, input, textarea, button {
+    font-family: 'Jaldi', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+#welcome-section h1 {
+    font-size: 2rem;
+    color: var(--main-white);
+}
+
+#welcome-section p {
+    text-align: center;
+    color: var(--main-red);
+    font-weight: 200;
+}
